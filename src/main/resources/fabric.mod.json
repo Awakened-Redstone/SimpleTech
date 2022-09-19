@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "simpletech",
+  "version": "${version}",
+  "name": "\"Simple\" Tech",
+  "description": "",
+  "authors": [
+    "Awakened Redstone"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/simpletech/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.awakenedredstone.simpletech.SimpleTech"
+    ],
+    "client": [
+      "com.awakenedredstone.simpletech.client.SimpleTechClient"
+    ]
+  },
+  "mixins": [
+    "simpletech.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": ">=1.19"
+  }
+}
